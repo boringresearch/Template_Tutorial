@@ -94,6 +94,6 @@ In ss-zoo, we currently have SpideR, COBRA. Our new members - Priranha, FROGS - 
     :maxdepth: 2
     :hidden:
 
-    tutorial/installation
+    tutorials/installation
     guide/howto
     keypoint/keypoint
