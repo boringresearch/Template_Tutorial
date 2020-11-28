@@ -91,7 +91,7 @@ In ss-zoo, we currently have SpideR, COBRA. Our new members - Priranha, FROGS - 
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :hidden:
 
     tutorials/installation
