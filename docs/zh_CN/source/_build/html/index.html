@@ -1,0 +1,286 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>COBRA documentation &mdash; cobra 0.0.8 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#">
+          
+
+          
+            
+            <img src="_static/cobra.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">COBRA documentation</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a><ul>
+<li><a class="reference internal" href="#installation-start-here"><span class="xref std std-ref">installation</span> - start here</a></li>
+<li><a class="reference internal" href="#how-to"><span class="xref std std-ref">how-to</span></a></li>
+<li><a class="reference internal" href="#key-points"><span class="xref std std-ref">key-points</span></a></li>
+<li><a class="reference internal" href="#reference"><span class="xref std std-ref">reference</span></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#why-the-name-cobra">Why the name COBRA?</a></li>
+<li><a class="reference internal" href="#about-us">About us</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">cobra</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>COBRA documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <blockquote>
+<div><dl>
+<dt>&lt;style&gt;</dt><dd><p>.row {clear: both}
+.row h2  {border-bottom: 1px solid gray;}</p>
+<p>.column img {border: 1px solid gray;}</p>
+<dl>
+<dt>&#64;media only screen and (min-width: 1000px),</dt><dd><blockquote>
+<div><p>only screen and (min-width: 500px) and (max-width: 768px){</p>
+</div></blockquote>
+<dl class="simple">
+<dt>.column {</dt><dd><p>padding-left: 5px;
+padding-right: 5px;
+float: left;</p>
+</dd>
+</dl>
+<p>}</p>
+<dl class="simple">
+<dt>.column3  {</dt><dd><p>width: 33.3%;</p>
+</dd>
+</dl>
+<p>}</p>
+<dl class="simple">
+<dt>.column2  {</dt><dd><p>width: 50%;</p>
+</dd>
+</dl>
+<p>}</p>
+</dd>
+</dl>
+<p>}</p>
+</dd>
+</dl>
+<p>&lt;/style&gt;</p>
+</div></blockquote>
+<div class="section" id="cobra-documentation">
+<h1>COBRA documentation<a class="headerlink" href="#cobra-documentation" title="Permalink to this headline">¶</a></h1>
+<img alt="cobra logo" src="_images/cobra-white.png" />
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>COBRA is more than a snake. It is a spy who would guide you to find TF target genes given enough information.</p>
+<p>COBRA relies mostly on its sense of ChIP-seq smell and its sense of RNA-seq touch to play the game of TF targets hunting.</p>
+<div class="clearfix row column column2 section" id="installation-start-here">
+<h3><a class="reference internal" href="tutorials/installation.html#installation"><span class="std std-ref">Installation</span></a> - start here<a class="headerlink" href="#installation-start-here" title="Permalink to this headline">¶</a></h3>
+<p>For the new cobra users, how to setup a COBRA-friendly environment.</p>
+</div>
+<div class="column column2 section" id="how-to">
+<h3><a class="reference internal" href="guide/howto.html#how-to"><span class="std std-ref">How-to guides</span></a><a class="headerlink" href="#how-to" title="Permalink to this headline">¶</a></h3>
+<p>Practical step-by-step guides for the new users, covering several important topics.</p>
+</div>
+<div class="column column2 section" id="key-points">
+<h3><a class="reference internal" href="keypoints/keypoints.html#key-points"><span class="std std-ref">Key points</span></a><a class="headerlink" href="#key-points" title="Permalink to this headline">¶</a></h3>
+<p>Explanation and analysis of some key features.</p>
+</div>
+<div class="column column2 section" id="reference">
+<h3><span class="xref std std-ref">reference</span><a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h3>
+<p>Technical reference material, for classes, methods, APIs, commands.</p>
+</div>
+</div>
+<div class="section" id="why-the-name-cobra">
+<h2>Why the name COBRA?<a class="headerlink" href="#why-the-name-cobra" title="Permalink to this headline">¶</a></h2>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Welcome to ss-zoo!
+We currently have <code class="docutils literal notranslate"><span class="pre">SpideR</span></code>, <code class="docutils literal notranslate"><span class="pre">COBRA</span></code>. Our new members - <code class="docutils literal notranslate"><span class="pre">Priranha</span></code>, <code class="docutils literal notranslate"><span class="pre">FROGS</span></code> will be coming soon as well.</p>
+</div>
+<p>Actually, you can find lots of ways to make sense of cobra. Here are the ways we think:</p>
+<ul class="simple">
+<li><p>Literally: Combined Binding and Regulatory Analysis.</p></li>
+<li><p>Programming language: This snake was written in python.</p></li>
+<li><p>In Chinese: Glasses snake. Hopefully, with the glasses, cobra could find the target gene easier.</p></li>
+</ul>
+</div>
+<div class="section" id="about-us">
+<h2>About us<a class="headerlink" href="#about-us" title="Permalink to this headline">¶</a></h2>
+<p>In ss-zoo, we currently have SpideR, COBRA. Our new members - Priranha, FROGS - will becoming soon as well.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Junfan Huang
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
