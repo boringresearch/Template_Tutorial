@@ -4,14 +4,14 @@
 Installation
 =============
 
-Let's get started by setting up our environment to run the snake.
+Let's get started by setting up our environment to run this snake.
 
-1.1 Requirements
+Requirements
 ~~~~~~~~~~~~~~~~~
 
 The baby version of cobra is sensitive, and it could only be happy when living with python 3.7 or newer. So please set a nice environment to make sure it is happy.
 
-1.2 Working environment
+Working environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You will have two options to keep cobra happy:
@@ -20,3 +20,6 @@ You will have two options to keep cobra happy:
 - building up own working environment
 
 See more details from :ref:`environment`.
+
+Working environment2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
