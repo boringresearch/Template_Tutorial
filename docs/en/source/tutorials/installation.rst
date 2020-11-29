@@ -33,6 +33,7 @@ Users are welcome to install COBRA either use ``pip package`` or ``build from so
 --------------------------
 
 Install COBRA with Python's ``pip`` package manager.
+
 .. highlight:: sh
 
 ::
