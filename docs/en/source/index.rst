@@ -39,7 +39,7 @@ Overview
 ********
 COBRA is more than a snake. It is a spy who would guide you to find TF target genes given enough information.
 
-COBRA relies mostly on its sense of ChIP-seq smell and its sense of RNA-seq touch to play the game of TF targets hunting.
+COBRA relies mostly on its excellent sense of smell for ChIP-seq and its sense of touch for RNA-seq to play the game of TF targets hunting.
 
 .. COBRA apples a probabilistic model, which integrates cistromes obtained from TF binding ChIP-seq data and differential gene expression, to compute the target probability based on the experiments. The whole process could be divided by four main steps: high confidence peak clustering, binding site scoring, differential expression analysis, and integration.
 
