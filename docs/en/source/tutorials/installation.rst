@@ -26,13 +26,14 @@ You will have two options to keep cobra happy:
 See more details from :ref:`environment`.
 
 Install COBRA
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
+Users are welcome to install COBRA either use ``pip package`` or ``build from source``.
+
+``pip`` package manager
+--------------------------
+
 Install COBRA with Python's ``pip`` package manager.
-
-
 .. highlight:: sh
-
-此指令后如下的“::”定义的块都会以sh语法进行高亮，直到遇到下一条highlight指令。
 
 ::
 
@@ -40,3 +41,22 @@ Install COBRA with Python's ``pip`` package manager.
    pip install --upgrade pip
    # Current stable release
    pip install sslab-cobra
+   
+Build from source
+--------------------------
+
+Download the COBRA source code from github
+
+.. highlight:: sh
+
+::
+
+   # git clone
+   git clone https://github.com/ss-lab/cobra.git
+   cd cobra
+   
+   # build environment
+   pip install -r requirements.txt
+   python setup.py install
+
+
