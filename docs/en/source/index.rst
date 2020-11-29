@@ -32,6 +32,8 @@ COBRA documentation
 .. image:: ./img/cobra-white.png
    :alt: cobra logo
 
+.. caution:: YOU ARE BE IN SS-ZOO. THERE MAY BE COBRA IN THIS AREA.
+
 ********
 Overview
 ********
