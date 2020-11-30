@@ -37,9 +37,8 @@ COBRA documentation
 ********
 Overview
 ********
-COBRA is more than a snake. It is a spy who would guide you to find TF target genes given enough information.
 
-COBRA relies mostly on its highly developed sense of smell for ChIP-seq and excellent sense of touch for RNA-seq to play the game of TF targets hunting.
+COBRA would be an excellent TF targets hunter based on its highly developed sense of smell for ChIP-seq and excellent sense of touch for RNA-seq. However, this is also a greedy snake. In order to let COBRA become your reliable partener, we highly recommond to feed at least 20 ChIP-seq experiments for it. Once COBRA gets enough feeds from users, it could do some cool stuffs, like dotplot painting. Why not have one yourself? Check this page out to see how it works now! 
 
 .. COBRA apples a probabilistic model, which integrates cistromes obtained from TF binding ChIP-seq data and differential gene expression, to compute the target probability based on the experiments. The whole process could be divided by four main steps: high confidence peak clustering, binding site scoring, differential expression analysis, and integration.
 
@@ -50,14 +49,16 @@ COBRA relies mostly on its highly developed sense of smell for ChIP-seq and exce
 :ref:`installation` - start here
 =============================
 
-For the new cobra users, how to setup a COBRA-friendly environment.
+For those new to SS-ZOO, start here to get your own COBRA locally now!
+
+.. For the new cobra users, how to setup a COBRA-friendly environment.
 
 .. rst-class:: column column2
 
 :ref:`how-to`
 =============
 
-Practical step-by-step guides for the new users, covering several important topics.
+Introduce the COBRA abilities; practical step-by-step guides for the new COBRA users, covering several important topics.
 
 .. rst-class:: column column2
 
@@ -83,11 +84,11 @@ Actually, you can find lots of ways to make sense of cobra. Here are the ways we
 - Programming language: This snake was written in python.
 - In Chinese: Glasses snake. Hopefully, with the glasses, cobra could find the target gene easier.
 
-********
-About us
-********
+*************
+About SS-ZOO
+*************
 
-We currently have ``SpideR``, ``COBRA``. Our new members - ``Priranha``, ``FROGS`` will be coming soon as well.
+We currently have ``SpideR``, ``COBRA``. Our new members - ``Priranha``, ``FROGS`` -  will be coming soon!
 
 
 .. toctree::
