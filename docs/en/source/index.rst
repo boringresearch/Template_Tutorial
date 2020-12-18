@@ -49,7 +49,7 @@ COBRA would be an excellent TF targets hunter based on its highly developed sens
 :ref:`installation` - start here
 =============================
 
-For those new to SS-ZOO, start here to get your own COBRA locally now!
+For those new to SS-ZOO, start here to get your own COBRA locally now! Good luck on your journey!
 
 .. For the new cobra users, how to setup a COBRA-friendly environment.
 
@@ -99,3 +99,4 @@ Welcome! Our SS-ZOO visitor! Based on our knowledge base, we think you are likel
     tutorials/installation
     guide/howto
     keypoints/keypoints
+
