@@ -232,14 +232,14 @@ If you check your folder with ``ls``, you will find two folders -  ``narrow`` an
 
 b) Run cobra normally
 >>>>>>>>>>>>>>>>>>>>>>
-Once you have your test data prepared, you could simply run ``cobra scorepeaks`` and ``cobra find`` step by step to get the results.
+Once you have your test data prepared, you could simply run ``cobra scorepeak`` and ``cobra find`` step by step to get the results.
 
 .. highlight:: sh
 
 ::
 
    # this step would generate multiple files for future usage (by default --tf: STAT1)
-   cobra scorepeaks -i narrow/ --meme stat1_human.meme --human --core 8
+   cobra scorepeak -i narrow/ --meme stat1_human.meme --human --core 8
 
    ######### Done: after a few seconds #########
 
