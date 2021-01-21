@@ -56,7 +56,7 @@ Before we start, let's just quickly go through its main modules. Currently, COBR
 ..   </embed>   
 
 
-:cobra scorepeaks:
+:cobra scorepeak:
 
    :ref:`scorepeaks` **is to calculate binding confidence for each gene given the ChIP-seq peakcalling.** For example, let's say you are interested in human STAT1 direct targets. You'll need two inputs to run ``cobra scorepeak``.
 
@@ -78,7 +78,7 @@ Before we start, let's just quickly go through its main modules. Currently, COBR
 
     .. container:: header
 		   
-        **show an example of** ``cobra scorepeaks``
+        **show an example of** ``cobra scorepeak``
 	
     .. code-block:: sh
        :linenos:
