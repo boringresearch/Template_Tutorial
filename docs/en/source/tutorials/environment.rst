@@ -35,7 +35,7 @@ If you don't like docker, and you want to see what kind of software COBRA requir
     python setup.py install
 
 1.3 Other softwares dependencies
----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In order to enhance COBRA's abilities, there're few other softwares required to be installed before you take COBRA home.
 
 a) MEME-Suite
