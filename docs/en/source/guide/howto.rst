@@ -244,7 +244,7 @@ Once you have your test data prepared, you could simply run ``cobra scorepeak`` 
    ######### Done: after a few seconds #########
 
    # gives input files or folders and output folders (GMM model will be trained)
-   cobra find -c human_stat1.csv -r rna/ -o output/
+   cobra find -c human_stat1_2000.csv -r rna/ -o output/
 
    ######### A few seconds later: you will find your results in output/ #########
 
