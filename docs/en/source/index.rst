@@ -81,8 +81,8 @@ Why the name COBRA?
 
 Actually, you can find lots of ways to make sense of COBRA. Here are the ideas we have:
 
-- Literally: Combined Binding and Regulatory Analysis.
-- It is written in python.
+- Combined Binding and Regulatory Analysis.
+- A friend of python.
 - Check out our Chinese version to see more.
 
 *************
